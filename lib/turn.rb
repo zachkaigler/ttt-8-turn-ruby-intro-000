@@ -42,7 +42,7 @@ def turn(board)
   end
 
   move(board, index, player_character="X")
-
+  display_board(board)
 #  while input > 8
 #    turn(board)
 #  end
